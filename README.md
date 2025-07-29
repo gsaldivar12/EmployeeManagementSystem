@@ -4,7 +4,7 @@ A full-stack web application built with the MERN stack (MongoDB, Express.js, Rea
 
 ## Screenshot
 
-![Employee Management System](Screenshot.PNG)
+![Employee Management System](./assets/Screenshot.PNG)
 
 *Employee Management System - Main Dashboard*
 
