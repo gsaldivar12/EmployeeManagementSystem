@@ -1,0 +1,38 @@
+{
+  "name": "employee-management-system",
+  "version": "1.0.0",
+  "description": "A full-stack Employee Management System built with MERN stack",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "nodemon server/index.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-client": "cd client && npm install",
+    "build-client": "cd client && npm run build",
+    "heroku-postbuild": "npm run install-client && npm run build-client"
+  },
+  "keywords": [
+    "mern",
+    "employee",
+    "management",
+    "react",
+    "express",
+    "mongodb",
+    "yargs"
+  ],
+  "author": "Peter Saldivar",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "mongoose": "^7.5.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.1"
+  }
+}
