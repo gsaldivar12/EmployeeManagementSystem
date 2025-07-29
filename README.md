@@ -2,6 +2,12 @@
 
 A full-stack web application built with the MERN stack (MongoDB, Express.js, React, Node.js) for managing employee records with CRUD operations.
 
+## Screenshot
+
+![Employee Management System](Screenshot.PNG)
+
+*Employee Management System - Main Dashboard*
+
 ## Features
 
 - **Create, Read, Update, Delete (CRUD)** employee records
